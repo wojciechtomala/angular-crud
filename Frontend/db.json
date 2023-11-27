@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "campaigns": [
+    {
+      "campaignImage": "https://nosweatco.com/cdn/shop/products/NS-VR-LINER-IMAGES.jpg?v=1681700430",
+      "campaignName": "VR Googles",
+      "keywords": "VR",
+      "bidAmount": 200,
+      "campaighFund": 5000,
+      "campaignStatus": "on",
+      "campaignTown": "Kraków",
+      "campaignRadius": 35,
+      "id": 1
+    },
+    {
+      "campaignImage": "https://media.steelseriescdn.com/thumbs/filer_public/37/ec/37ec4c4c-8bad-4727-90d1-60e471372e37/aerox_3_wl_black_img_buy_02.png__1920x1080_crop-fit_optimize_subsampling-2.png",
+      "campaignName": "Gaming Mouse SteelSeries",
+      "keywords": "Gaming",
+      "bidAmount": 250,
+      "campaighFund": 400,
+      "campaignStatus": "on",
+      "campaignTown": "Gdańsk",
+      "campaignRadius": 50,
+      "id": 2
+    },
+    {
+      "campaignImage": "https://assetsio.reedpopcdn.com/best-pc-gaming-headset-our-recommended-wired-and-wireless-options-1622734103593.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+      "campaignName": "Headphones",
+      "keywords": "Music",
+      "bidAmount": 149,
+      "campaighFund": 10000,
+      "campaignStatus": "on",
+      "campaignTown": "Katowice",
+      "campaignRadius": 50,
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+/* FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #EFEFEF;
+    font-family: 'Montserrat';
+}
+/* CUSTOM SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(107, 144, 187);
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #EEE;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #DDD;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
