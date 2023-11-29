@@ -1,0 +1,17 @@
+<header class="header">
+    <div class="header-logo-container">
+        <a href="/" class="header-logo-link">
+            <h1 class="header-logo">EVENTEER</h1>
+        </a>
+    </div>
+    <button class="menu-btn" (click)="toggleMenuOpen()">
+        <fa-icon [icon]="isOpen ? faTimes : faBars"></fa-icon>
+    </button>
+    <nav class="header-nav" [ngClass]="{'hidden': !isOpen}">
+        <ul class="nav-list">
+            <li *ngFor="let item of menuItems" class="nav-list-item">
+                <a class="nav-link {{item.className}}" [routerLink]="item.url">{{ item.title }}</a>
+            </li>
+        </ul>
+    </nav>
+</header>

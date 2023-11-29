@@ -1,0 +1,45 @@
+.manage-section{
+    width: 90%;
+    max-width: 1300px;
+    min-height: 600px;
+    margin: 100px auto;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.table-section{
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+.manage-btns-container button{
+    margin: 2px;
+}
+.row-img-thumbnail{
+    width: 120px;
+    width: 120px;
+    object-fit: cover;
+    padding: 10px;
+}
+@media screen and (max-width: 1300px) {
+    .manage-section{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 100px 0;
+        max-width: 1300px;
+        min-height: 600px;
+    }
+    .pc-extended{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .manage-section-toolbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        height: auto;
+        background: none;
+    }
+}
