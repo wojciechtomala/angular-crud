@@ -6,3 +6,5 @@ Installation:
 
 JSON Server setup:
 1. To work with CRUD form, and see results at the browser you need to setup the json server using "npm install -g json-server" and then run "json-server --watch db.json" command to watch db.json file. Server will start running at "http://localhost:3000"
+
+NOW WE CAN OPEN THE EVENTEER APP AT: "http://localhost:4200"
